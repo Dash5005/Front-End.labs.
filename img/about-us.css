@@ -8,6 +8,10 @@
     --font-first-title-weigth: 700;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--color-base);
     font-family: var(--font-base);
@@ -43,4 +47,10 @@ figcaption {
     font-family: "Cutive Mono", monospace;
     font-weight: 400;
     margin-top: 10px;
+}
+
+p {
+    padding: 0 45px;
+    text-indent: 25px;
+    text-align: justify;
 }
