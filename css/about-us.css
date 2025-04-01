@@ -5,7 +5,7 @@
     --color-base-footer: #777;
     --font-base: "Roboto", sans-serif;
     --font-base-weigth: 300;
-    --font-first-title: "Playfair Display", serif;
+    --font-first-title: "Reboto", sans-serif;
     --font-first-title-weigth: 700;
 }
 
@@ -32,7 +32,7 @@ h1 {
 h2 {
     border-bottom: 2px groove var(--color-base);
     margin-top: 30px;
-    font-family: "Rock Salt", cursive;
+    font-family: "Cultive",cursive;
     font-weight: 400;
 }
 
@@ -45,7 +45,7 @@ figure {
 }
 
 figcaption {
-    font-family: "Cutive Mono", monospace;
+    font-family: "Reboto",sans-serif;
     font-weight: 400;
     margin-top: 10px;
 }
