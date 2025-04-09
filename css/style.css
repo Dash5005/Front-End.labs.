@@ -1,0 +1,17 @@
+.titulo-principal {
+    color: brown
+    font-family Reboto, sans-serif
+}
+
+.titulo-secundario {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.maiusculas {
+    text-transform: uppercase;
+}
+
+.bloco-info p {
+    text-transform: lowercase;
+}
