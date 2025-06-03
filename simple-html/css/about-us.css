@@ -79,6 +79,7 @@ p {
     float: right;
 }
 
+/*Responsivo*/
 @media (max-width: 768px) {
     body {
         width: auto;
