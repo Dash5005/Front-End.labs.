@@ -1,13 +1,11 @@
 :root {
-    --primary-color: #2573e9;
-    --secondary-color: #d65214;
-    --background-color: #f9f9f9;
-    --text-button-color: #f9f9f9;
+    --primary-color: #202298;
+    --secondary-color: #e1551d;
+    --background-color: #F9F9F9;
+    --text-button-color: white;
     --font-family: Verdana, Geneva, Tahoma, sans-serif;
-    --font-family-size-medium: medium;
+    --font-size-medium: medium;
     --font-size-large: large;
-
-
 }
 
 .flex-container {
@@ -30,11 +28,10 @@ fieldset {
 
 fieldset legend {
     font-weight: bold;
-
 }
 
 fieldset input, select {
-    font-size: var(--font-family-size-medium);
+    font-size: var(--font-size-medium);
 }
 
 .grid-button-container {
@@ -45,24 +42,26 @@ fieldset input, select {
 }
 
 .grid-button-container input {
-    font-size: var(--font-family-size-medium);
+    font-size: var(--font-size-medium);
     font-weight: bold;
+    color: var(--text-button-color);
     border-radius: 5px;
-    color: var(var(--text-button-color));
-    border: none;
     padding: 5px;
+    border: none;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .grid-button-container input[type=submit] {
-background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .grid-button-container input[type=reset] {
-background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
 }
+
 .grid-button-container input:focus{
-outline: 2px solid black ;
+    outline: 2px solid black;
 }
 
 .grid-header-container {
@@ -72,15 +71,14 @@ outline: 2px solid black ;
     margin-bottom: 5px;
 }
 
-.top-left{
+.top-left {
     grid-area: top-left;
     justify-self: left;
-
 }
 
-.top-right{
-grid-area: top-right;
-justify-content: right;
+.top-right {
+    grid-area: top-right;
+    justify-self: right;
 }
 
 i {
